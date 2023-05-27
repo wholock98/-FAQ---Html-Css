@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#sidebar {
+  width: 200px;
+  height: 100px;
+  border-right: 1px solid;
+  position: absolute;
+  
+}
+
+.menu-item {
+  padding: 20px;
+  border: 1px solid;
+  font-size: small;
+  text-decoration: none;
+  display: block;
+  margin-left: 0%;
+  
+
+  
+}
+
+.menu-item:hover {
+  background-color: #555;
+}
+
+
+.content {
+    padding-left: 220px;
+    
+}
+
+.codigo {
+    width: 100%;
+    background-color: rgb(193, 188, 188);
+    padding: 20px;
+    box-sizing: border-box;
+  }
